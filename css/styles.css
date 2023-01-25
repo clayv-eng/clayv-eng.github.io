@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p, a {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-section {
+    padding: 2rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.top-container {
+    background-color: #C7CFB7;
+    text-align: center;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 33%;
+}
+
+.heading{
+    position: absolute;
+}
+
+#clay {
+    color: #227C70;
+}
+
+#programmer {
+    color: #227C70;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
