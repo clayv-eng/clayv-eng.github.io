@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="cover.css" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/2b8c656f77.js" crossorigin="anonymous"></script>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -93,7 +93,7 @@
     </div>
   </header>
   
-  <div class="bg-image"> <!-- style="background-image: url('images/coffee.jpg'); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"> -->
+  <div class="bg-image" style="background-image: url('images/marcus-dall-col.jpg'); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
     <div class="container-fluid d-flex h-100 w-100 p-3 mx-auto flex-column section-height" id="Home">
       <main class="px-3 mb-auto"  id="intro">
         <h1>I'm Clayton.</h1>
@@ -118,16 +118,97 @@
     </main>
   </div>
   <div class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column section-height" id="Skills">
-    <main class="px-3">
-      <h1>Cover your page.</h1>
-      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-      </p>
+    <main class="px-3 skill-margin skill-container">
+      <h3>Languages</h3>
+      <div class="d-flex flex-row mx-auto m-32 text-center flex-justify-clay">
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-python fa-2xl"></i>
+          <p class="hide">Python</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <img class="icon-resize" src="images/c++_icon.png" alt="">
+          <p class="hide">C++</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <img class="icon-resize" src="images/c_icon.png" alt="">
+          <p class="hide">C</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-js fa-2xl"></i>
+          <p class="hide">Javascript</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-html5 fa-2xl"></i>
+          <p class="hide">HTML</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-css3-alt fa-2xl"></i>
+          <p class="hide">CSS</p>
+        </a>
+      </div>
+      <h3>Tools/Frameworks</h3>
+      <div class="d-flex flex-row mx-auto m-32 text-center flex-justify-clay">
+        <a class="inline-skill-link" href="#Skills">
+          <img class="icon-resize-flask" src="images/flask_icon.png" alt="">
+          <p class="hide">Flask</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-square-git fa-2xl"></i>
+          <p class="hide">Git</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-bootstrap fa-2xl"></i>
+          <p class="hide">Bootstrap</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-node-js fa-2xl"></i>
+          <p class="hide">Node.js</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-brands fa-react fa-2xl"></i>
+          <p class="hide">React.js</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-database fa-2xl"></i>
+          <p class="hide">MongoDB</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <img class="icon-resize" src="images/selenium_icon.png" alt="">
+          <p class="hide">Selenium</p>
+        </a>
+      </div>
+      <h3>Soft Skills</h3>
+      <div class="d-flex flex-row mx-auto m-32 text-center flex-justify-clay">
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-list-check fa-2xl"></i>
+          <p class="hide">Project Management</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-calculator fa-2xl"></i>
+          <p class="hide">Problem Solving</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-people-group fa-2xl"></i>
+          <p class="hide">Collaboration</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-chalkboard-user fa-2xl"></i>
+          <p class="hide">Written/Verbal Communication</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+          <p class="hide">Attention to Detail</p>
+        </a>
+        <a class="inline-skill-link" href="#Skills">
+          <i class="fa-solid fa-sitemap fa-2xl"></i>
+          <p class="hide">Organization</p>
+        </a>
+      </div>
+      
     </main>
   </div>
   <div class="text-center py-clay h-wrap w-wrap container-fluid" id="Projects">
-    <div id="projectCarousel" class="carousel slide h-car w-car" data-bs-ride="true" data-bs-pause="hover" data-bs-interval="60000">
+    <div id="projectCarousel" class="carousel slide h-car w-car carousel-bg" data-bs-ride="true" data-bs-pause="hover" data-bs-interval="60000">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -188,18 +269,19 @@
     </div>
   </div>
   <div class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column box-shadow section-height" id="Contact">
-    <main class="px-3">
+    <main class="px-3 contact-spacing d-flex flex-column flex-justify-clay">
       <h1>Get In Touch.</h1>
-      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+      <h3>I'd love to have a chat over coffee.</h3>
+      <p class="lead">If you like what you see, don't hesitate to send me an email. I'm looking forward to speaking with you!.</p>
       <p class="lead">
         <a href="mailto:claytonjarretteng@gmail.com" class="btn btn-lg btn-light fw-bold border-white bg-white">MESSAGE ME</a>
       </p>
     </main>
     <footer class="text-white-50 d-flex flex-column">
       <div class="d-flex flex-row text-center footer-link-container">
-        <a class="inline-footer-link" href="https://www.linkedin.com/in/clayton-j-865a99b2/" target="_blank" rel="noopener nonreferrer">LinkedIn</a>
-        <a class="inline-footer-link" href="https://github.com/clayv-eng" target="_blank" rel="noopener nonreferrer">GitHub</a>
-        <a class="inline-footer-link" href="https://www.instagram.com/__clayv/" target="_blank" rel="noopener nonreferrer">Instagram</a>
+        <a class="inline-footer-link" href="https://www.linkedin.com/in/clayton-j-865a99b2/" target="_blank" rel="noopener nonreferrer"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        <a class="inline-footer-link" href="https://github.com/clayv-eng" target="_blank" rel="noopener nonreferrer"><i class="fa-brands fa-github fa-xl"></i></a>
+        <a class="inline-footer-link" href="https://www.instagram.com/__clayv/" target="_blank" rel="noopener nonreferrer"><i class="fa-brands fa-instagram fa-xl"></i></a>
       </div>
       <p class="copyright">© 2023 Clayton Jarrett. All rights reserved</p>
     </footer>
